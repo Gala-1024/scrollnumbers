@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>jquery滚动数字</title>
+
+<script src="js/lib/jquery-1.8.3.min.js" charset="utf-8"></script>
+
+<!--滚动数字 Start-->
+<link rel="stylesheet" href="js/lib/odometer/odometer-theme-car.css" />
+<script src="js/lib/odometer/odometer.js"></script>
+<script>
+	setTimeout(function(){
+	    $('.regNum').html(200);
+		$('.brandNum').html(889);
+		$('.fansNum').html(80000);
+	}, 1000);
+</script>
+<!--滚动数字 End-->
+
+
+</head>
+
+<body>
+	<h1 class="odometer regNum">0</h1>
+	<h1 class="odometer brandNum" >0</h1>
+	<h1 class="odometer fansNum" >0</h1>
+</body>
+</html>
